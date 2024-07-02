@@ -1,0 +1,187 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo img {
+    height: 40px;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.features {
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.feature-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature-card h3 {
+    font-size: 1rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+
+
+button{
+    border: 1px solid #b1e50e ;
+    height: 60px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: #b1e50e;
+    margin-right: 75px;
+    
+}
+
+.link a{ 
+    color: black;
+    font-family: Nexa, sans-serif;
+    text-decoration: none;
+    margin-right: 60px; 
+    font-size: 22px;
+    margin-top: 20px;
+    }
+    
+
+
+/* mid part of page  */
+
+
+.mid{
+    
+    margin-left: 60px;
+    margin-top: 90px;
+    margin-right: 60px;
+    display: flex ;
+}
+#midimg{
+  
+    width: 800px;
+}
+
+
+#para1{
+    margin-top: 110px;
+    margin-left: 132px;
+      font-family:  Nexa, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(74, 71, 71);
+}
+#para2{
+    padding-top: 80px;
+    margin-left: 132px;
+    font-size: 25px;
+    font-family:  Nexa, sans-serif;
+    color: #494b57;
+    font-weight: 15px;
+  
+}
+
+
+/* part3 */
+.container2{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.container2 img{
+    height: 190px;
+    width: 160px;
+
+}
+
+
+.container2 p{
+    font-size: 25px;
+    color:#494b57;  
+}
+
+
+.card{
+    height: 250px ;
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: auto;
+    font-family:  Nexa, sans-serif;
+
+}
+
+
+
+h1{
+    color: black;
+    padding: 20px;
+}
+
+#why{
+    font-size: 40px;
+    font-family:  Nexa, sans-serif;
+    color: #494b57;
+}
+
